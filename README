@@ -8,7 +8,7 @@ Uses the jquery.notice library
 Example
 =======
 
-./script/plugin install something
+./script/plugin install git://github.com/tangofoxtrot/jQuery-Flash-Growlr.git
 
 In your header:
 <%= javascript_include_tag 'jquery.notice' %>
