@@ -1,0 +1,25 @@
+jQuery Flash Growlr
+=================
+
+Rails plugin for displaying "Growl" like flash messages in your rails application.
+
+Uses the jquery.notice library
+
+Example
+=======
+
+./script/plugin install something
+
+In your header:
+<%= javascript_include_tag 'jquery.notice' %>
+<%= stylesheet_link_tag 'jquery.notice' %>
+
+In your body:
+<%= jquery_flash_growlr_tag %>
+
+Config options:
+<%= jquery_flash_growlr_tag(:stay => false) %>
+stops the notices from being sticky
+See the JS file for more options
+
+Copyright (c) 2009 Richard Luther, released under the MIT license
